@@ -1,2 +1,11 @@
 # unifiedHousingData
 A collection of Real Estate Transaction Data Sources.
+
+# Sources
+| Country        | Sub Division    | Source                              | Level   | Type       | Rhythm  | Value                                                                                                                                          | Residential | Commercial | Land | Details                                                                               |
+|----------------|-----------------|-------------------------------------|---------|------------|---------|------------------------------------------------------------------------------------------------------------------------------------------------|-------------|------------|------|---------------------------------------------------------------------------------------|
+| Germany        |                 | Oberer Gutachter Ausschuss          | LAU     | Aggregated | Annual  | [Immobilienmarktbericht Deutschland](https://tableau.bbsr.bund.de/t/bbr/views/Landing_Page/Start?%3Aembed=y&%3AisGuestRedirectFromVizportal=y) | Y           | Y          | Y    |                                                                                       |
+| United Kingdom | England & Wales |                                     | Address | Line Items | Monthly | [Price Paid](https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads)                                                    | Y           |            | Y    | [Data Schema](https://www.gov.uk/guidance/about-the-price-paid-data#download-options) |
+| United Kingdom | Scotland        | Scotland's Land Information Service | Address | Line Items | Monthly | [Scotland's Land Information Service](https://scotlis.ros.gov.uk/)                                                                             |             |            |      |                                                                                       |
+| Italy          |                 | Italian Fiscal Agency               | LAU     | Aggregated | Monthly | []()                                                                                                                                           |             |            |      |                                                                                       |
+# Notes
